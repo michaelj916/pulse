@@ -1,0 +1,118 @@
+/* -----  broader styles  ------ */
+body {
+    background-color: #000000;    
+    font-family: monospace;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    cursor: crosshair;
+}
+
+.header {
+    position: fixed;
+    width: 70%;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%, -1%);
+}
+
+
+.link-tree {
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.link-tree li {
+    justify-content: center;
+    text-align: center;
+    padding-top: 15%;
+    list-style-type: none;
+}
+
+a em {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: none;
+    color: #26ff0e;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/*
+ul li:hover {
+    cursor: pointer;
+    background-color: #1818186c;
+    opacity: 70%;
+    transition-property: text-decoration, background-color;
+    transition-duration: 500ms, 500ms;
+    border-radius: 3%;
+}
+
+ul li:hover a {
+   color: #3dfb2481;
+   opacity: 70%;
+   font-weight: 600;
+   transition-property: font-weight;
+   transition-duration: 100ms;
+}
+*/
+
+.link:hover {
+    color: #51ff008a;
+    opacity: 100%;
+    text-decoration: underline #51ff008a;
+    transition: opacity 200ms linear;
+}
+
+@media only screen and (max-width: 1393px) {
+    ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    ul li {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    ul li {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .header {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .linktree {
+        top: 52%;
+        left: 50%;
+    }
+    
+    ul {
+        grid-template-columns: 1fr 1fr;
+        padding-inline-start: 0px;
+    }
+    
+    ul li {
+        padding: 25px;
+    }
+
+    
+
+    .link {
+        font-size: 16px;
+        opacity: 40%;
+    }
+}
