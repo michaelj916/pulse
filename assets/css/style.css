@@ -22,8 +22,13 @@ body {
     font-size: 120px;
     color: #26ff0e;
     left: 50%;
-    top: 10%;
-    transform: translate(-50%, -10%);
+    top: 1%;
+    transform: translate(-50%, -1%);
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
 }
 
 
