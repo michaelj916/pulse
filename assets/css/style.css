@@ -1,13 +1,13 @@
 /* font family cigarette */
 @font-face {
-    font-family: marlboro;
-    src: url('./Marlboro/Marlboro.ttf');
+    font-family: bebas;
+    src: url('./BebasNeue-Regular.ttf');
 }
 
 /* -----  broader styles  ------ */
 body {
     background-color: #000000;    
-    font-family: monospace;
+    font-family: bebas;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -22,8 +22,19 @@ body {
     font-size: 120px;
     color: #26ff0e;
     left: 50%;
-    top: 1%;
-    transform: translate(-50%, -1%);
+    top: -5%;
+    transform: translate(-50%, 5%);
+}
+
+.back { 
+    color: #26ff0e;
+    padding: 5%;
+    padding-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: bebas;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .header img {
@@ -31,8 +42,8 @@ body {
     height: 100%;
 }
 
-
 .link-tree {
+    z-index: 5;
     position: fixed;
     top: 50%;
     left: 50%; 
@@ -46,6 +57,24 @@ body {
     list-style-type: none;
 }
 
+.date-tree {
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    list-style-type: none;
+}
+
+.date {
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: bebas;
+    white-space: pre;
+    font-weight: 900;
+    color: #26ff0e;
+    font-size: 20px;
+    z-index: 10 !important;
+}
+
 a em {
     text-decoration: line-through;
 }
@@ -53,7 +82,7 @@ a em {
 .link {
     text-decoration: none;
     color: #26ff0e;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 20px;
 }
 
@@ -82,6 +111,7 @@ ul li:hover a {
     text-decoration: underline #51ff008a;
     transition: opacity 200ms linear;
 }
+/*
 
 @media only screen and (max-width: 1393px) {
     ul {
@@ -103,10 +133,13 @@ ul li:hover a {
     }
 }
 
+*/
+
 @media only screen and (max-width: 540px) {
     .header {
         left: 50%;
-        transform: translateX(-50%);
+        top: 15%;
+        transform: translate(-50%, -15%);
     }
 
     .linktree {
@@ -127,6 +160,6 @@ ul li:hover a {
 
     .link {
         font-size: 16px;
-        opacity: 40%;
+        
     }
 }
