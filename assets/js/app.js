@@ -1,3 +1,4 @@
+/*
 // check for device size ( 768px targets mobile devices and upwards to iPad's )
 const responsive = window.matchMedia('(max-width: 768px)');
 
@@ -57,3 +58,5 @@ var elem = document.getElementById("header");
 var scope = blotter.forText(title);
 
 scope.appendTo(elem);
+*/
+// Optional blotter styling for header

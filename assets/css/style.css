@@ -1,3 +1,9 @@
+/* font family cigarette */
+@font-face {
+    font-family: marlboro;
+    src: url('./Marlboro/Marlboro.ttf');
+}
+
 /* -----  broader styles  ------ */
 body {
     background-color: #000000;    
@@ -11,10 +17,13 @@ body {
 
 .header {
     position: fixed;
-    width: 70%;
+    z-index: 1;
+    font-family: marlboro;
+    font-size: 120px;
+    color: #26ff0e;
     left: 50%;
-    top: 1%;
-    transform: translate(-50%, -1%);
+    top: 10%;
+    transform: translate(-50%, -10%);
 }
 
 
