@@ -55,9 +55,9 @@ body {
 .link-tree {
     z-index: 5;
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
 }
 
 .link-tree li {
@@ -93,7 +93,7 @@ a em {
     text-decoration: none;
     color: #26ff0e;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /*
