@@ -18,7 +18,7 @@ body {
 .header {
     position: relative; 
     z-index: 1;
-    width: 60%;
+    width: 50%;
     height: 50%;
     left: 50%;
     top: 0%;
@@ -102,7 +102,7 @@ body {
 /*  future media queries for medium to medium small devices */
 @media only screen and (max-width: 1350px) {
     .header {
-        width: 60%;
+        width: 50%;
     }
     .header img {
         transform: translateY(-30px);
@@ -111,7 +111,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .header {
-        width: 80%;
+        width: 60%;
     }
     
     /* .header img {
@@ -121,7 +121,7 @@ body {
 
 @media only screen and (max-width: 768px) {
     .header {
-        width: 100%;
+        width: 80%;
     }
 
     .header img {
@@ -145,7 +145,7 @@ body {
     }
 
     .link {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .date {
