@@ -32,6 +32,7 @@ body {
     left: 50%;
     top: 7%;
     transform: translate(-50%, -7%);
+    padding: 10px;
 }
 
 
@@ -43,6 +44,7 @@ body {
     text-decoration: none;
     font-family: bebas;
     text-transform: uppercase;
+    border-radius: 5%;
     font-weight: 700;
 }
 
@@ -58,6 +60,7 @@ body {
     top: 75%;
     left: 50%; 
     transform: translate(-50%, -75%);
+    overflow: hidden;
 }
 
 .link-tree li {
@@ -71,7 +74,9 @@ body {
     justify-content: center;
     text-align: center;
     padding-top: 10%;
+    padding-bottom: 15%;
     list-style-type: none;
+    height: 70%;
 }
 
 .date {
@@ -130,8 +135,8 @@ body {
 
     .home {
         left: 50%;
-        top: 95%;
-        transform: translate(-50%, -95%);
+        top: 98%;
+        transform: translate(-50%, -98%);
     }
 
     .linktree {
@@ -154,5 +159,6 @@ body {
 
     .back {
         font-size: 40px;
+        background-color: #000000a1;
     }
 }
