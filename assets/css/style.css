@@ -29,9 +29,9 @@ body {
     position: fixed;
     z-index: 1;
     color: #26ff0e;
-    left: 50%;
+    left: 15%;
     top: 7%;
-    transform: translate(-50%, -7%);
+    transform: translate(-15%, -7%);
     padding: 10px;
 }
 
@@ -102,6 +102,17 @@ body {
     opacity: 100%;
     text-decoration: underline #51ff008a;
     transition: opacity 200ms linear;
+}
+
+::-webkit-scrollbar {
+    background-color: #34343435;
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #26ff0e7a;
+    height: 10px;
 }
 
 /*  future media queries for medium to medium small devices */
